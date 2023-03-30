@@ -1,0 +1,28 @@
+{
+  "name": "outest",
+  "version": "0.0.1",
+  "description": "DHS Learning 2023 Theme (test)",
+  "main": "version.php",
+  "repository": {
+    "url": "https://github.com/OU-Center-for-Public-Management/OUTest.git"
+  },
+  "scripts": {
+    "start": "rollup -c -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "last 2 versions",
+    "> 1% in US",
+    "IE 11"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.0",
+    "less": "^4.1.3",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "rollup": "^3.20.2",
+    "rollup-plugin-less": "^1.1.3",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
